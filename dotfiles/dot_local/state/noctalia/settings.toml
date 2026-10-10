@@ -11,7 +11,7 @@ enabled = true
 order = [ "Main" ]
 
     [bar.Main]
-    background_opacity = 0.84999998100101948
+    background_opacity = 0.89999997988343239
     capsule_radius = 7
     center = [ "workspaces" ]
     concave_edge_corners = false
@@ -39,9 +39,6 @@ order = [ "Main" ]
         padding = 6.0
         radius = 7.0
         widget_spacing = 6
-
-[battery.device."/org/freedesktop/UPower/devices/headset_dev_C4_A9_B8_6B_24_56"]
-warning_threshold = 0
 
 [brightness]
 enable_ddcutil = true
