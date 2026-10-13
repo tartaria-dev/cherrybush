@@ -163,9 +163,8 @@ widget_order = [ "lockscreen-login-box", "lockscreen-widget-0000000000000001", "
 
 [notification]
 follow_focused_output = true
-layer = "overlay"
 max_visible = 2
-offset_x = 9
+position = "top_center"
 
 [osd]
 position = "bottom_center"
