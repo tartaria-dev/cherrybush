@@ -1,10 +1,4 @@
 {
   "lockfileVersion": 1,
-  "plugins": {
-    "dankKDEConnect": {
-      "repo": "https://github.com/duxlabs-dev/dux-plugins",
-      "path": "DankKDEConnect",
-      "commit": "a55bb40da2f70640600a520ea05eac9c3540f1af"
-    }
-  }
+  "plugins": {}
 }
