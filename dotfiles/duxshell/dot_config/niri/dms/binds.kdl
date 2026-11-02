@@ -1,0 +1,8 @@
+binds {
+    Mod+space repeat=false allow-inhibiting=false hotkey-overlay-title="Open Launcher" { spawn "dms" "ipc" "call" "spotlight" "toggle"; }
+    XF86AudioLowerVolume allow-when-locked=true allow-inhibiting=false hotkey-overlay-title="Decrease volume" { spawn "dms" "ipc" "call" "audio" "decrement" "5"; }
+    XF86AudioMute repeat=false allow-when-locked=true allow-inhibiting=false hotkey-overlay-title="Mute volume" { spawn "dms" "ipc" "call" "audio" "mute"; }
+    XF86AudioRaiseVolume allow-when-locked=true allow-inhibiting=false hotkey-overlay-title="Increase volume" { spawn "dms" "ipc" "call" "audio" "increment" "5"; }
+    XF86MonBrightnessDown allow-when-locked=true allow-inhibiting=false hotkey-overlay-title="Decrease brightness" { spawn "dms" "ipc" "call" "brightness" "decrement" "5" ""; }
+    XF86MonBrightnessUp allow-when-locked=true allow-inhibiting=false hotkey-overlay-title="Increase brightness" { spawn "dms" "ipc" "call" "brightness" "increment" "5" ""; }
+}
