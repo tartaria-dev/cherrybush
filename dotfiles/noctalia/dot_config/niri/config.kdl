@@ -63,31 +63,15 @@ screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
 
 animations {}
 
-blur {
-    passes 4
-    offset 8
-    noise 0.02
-    saturation 1.5
-}
-
 window-rule {
     draw-border-with-background false
     geometry-corner-radius 9
     clip-to-geometry true
-    opacity 0.9
-    background-effect {
-        blur true
-        xray false
-    }
 }
 
 window-rule {
     match app-id=r#"zen$"# title="^Picture-in-Picture$"
     open-floating true
-    opacity 1.0
-    background-effect {
-        blur false
-    }
 }
 
 layer-rule {
