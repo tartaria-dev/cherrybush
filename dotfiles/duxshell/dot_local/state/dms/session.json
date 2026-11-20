@@ -87,17 +87,7 @@
     "iris bloom",
     "portal"
   ],
-  "monitorCyclingSettings": {
-    "DP-1": {
-      "enabled": false,
-      "random": false,
-      "recursive": false,
-      "mode": "interval",
-      "interval": 300,
-      "time": "06:00",
-      "folderPath": ""
-    }
-  },
+  "monitorCyclingSettings": {},
   "lastPlayerIdentity": "",
   "niriOutputSettings": {},
   "lastAppliedIconTheme": "default-icons-grey-dark",

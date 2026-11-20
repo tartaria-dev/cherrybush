@@ -1,4 +1,4 @@
-config_version = 16
+config_version = 20
 
 [audio]
 enable_sounds = true
@@ -105,7 +105,7 @@ widget_order = [
     major_interval = 4
     visible = true
 
-    [lockscreen_widgets.widget."lockscreen-login-box"]
+    [lockscreen_widgets.widget.lockscreen-login-box]
     box_height = 196.0
     box_width = 810.0
     cx = 1280.0
@@ -116,7 +116,7 @@ widget_order = [
     rotation = 0.0
     type = "login_box"
 
-        [lockscreen_widgets.widget."lockscreen-login-box".settings]
+        [lockscreen_widgets.widget.lockscreen-login-box.settings]
         background_color = "surface_container"
         background_opacity = 0.88
         background_radius = 12.0
@@ -128,6 +128,7 @@ widget_order = [
         show_keyboard_layout = true
         show_login_button = true
         show_media = true
+        show_media_controls = true
         show_password_reveal = true
         show_session_buttons = true
         show_unlock_hint = true
@@ -302,4 +303,3 @@ show_value = false
 
 [widget.workspaces]
 focused_output_only = true
-style = "focus_hint"

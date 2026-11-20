@@ -23,7 +23,7 @@ input {
 }
 
 layout {
-    gaps 16
+    gaps 10
 
     border {
         off
@@ -51,7 +51,7 @@ layout {
     background-color "transparent"
 
     focus-ring {
-        width 2
+        width 1
     }
 }
 
