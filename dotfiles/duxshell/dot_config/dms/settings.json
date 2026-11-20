@@ -10,6 +10,7 @@
       "showOnLastDisplay": true,
       "position": 1,
       "mode": "compact",
+      "middleClickAction": "close",
       "taskbarAlign": "center",
       "widgetExpansion": "popout",
       "iconSize": 40,
@@ -785,5 +786,15 @@
     }
   ],
   "niriLayoutGapsOverride": 10,
-  "greeterFollowLockScreen": false
+  "greeterFollowLockScreen": false,
+  "modalDarkenBackground": true,
+  "spotlightSectionViewModes": {
+    "apps": "list"
+  },
+  "launcherHistoryEnabled": true,
+  "launcherUseOverlayLayer": true,
+  "dankLauncherV2UnloadOnClose": false,
+  "dankLauncherV2Size": "compact",
+  "fontWeight": 500,
+  "fontScale": 1.04
 }

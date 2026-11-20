@@ -1,8 +1,10 @@
 binds {
-    Mod+space repeat=false allow-inhibiting=false hotkey-overlay-title="Open Launcher" { spawn "dms" "ipc" "call" "spotlight" "toggle"; }
+    Mod+Alt+V repeat=false hotkey-overlay-title="Open Clipboard" { spawn "dms" "ipc" "call" "clipboard" "toggle"; }
+    Mod+Ctrl+P repeat=false allow-when-locked=true allow-inhibiting=false hotkey-overlay-title="Open Power Menu" { spawn "dms" "ipc" "call" "powermenu" "toggle"; }
+    Mod+space hotkey-overlay-title="Open Launcher" repeat=false allow-inhibiting=false { spawn "dms" "ipc" "call" "spotlight" "toggle"; }
+    XF86AudioMute hotkey-overlay-title="Mute volume" repeat=false allow-when-locked=true allow-inhibiting=false { spawn "dms" "ipc" "call" "audio" "mute"; }
     XF86AudioLowerVolume allow-when-locked=true allow-inhibiting=false hotkey-overlay-title="Decrease volume" { spawn "dms" "ipc" "call" "audio" "decrement" "5"; }
-    XF86AudioMute repeat=false allow-when-locked=true allow-inhibiting=false hotkey-overlay-title="Mute volume" { spawn "dms" "ipc" "call" "audio" "mute"; }
     XF86AudioRaiseVolume allow-when-locked=true allow-inhibiting=false hotkey-overlay-title="Increase volume" { spawn "dms" "ipc" "call" "audio" "increment" "5"; }
     XF86MonBrightnessDown allow-when-locked=true allow-inhibiting=false hotkey-overlay-title="Decrease brightness" { spawn "dms" "ipc" "call" "brightness" "decrement" "5" ""; }
-    XF86MonBrightnessUp allow-when-locked=true allow-inhibiting=false hotkey-overlay-title="Increase brightness" { spawn "dms" "ipc" "call" "brightness" "increment" "5" ""; }
+    XF86MonBrightnessUp allow-inhibiting=false hotkey-overlay-title="Increase brightness" allow-when-locked=true { spawn "dms" "ipc" "call" "brightness" "increment" "5" ""; }
 }
