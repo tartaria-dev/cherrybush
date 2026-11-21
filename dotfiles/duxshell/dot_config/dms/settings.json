@@ -432,7 +432,7 @@
       "style": "analog"
     }
   },
-  "notificationPopupPosition": 3,
+  "notificationPopupPosition": 0,
   "notificationIgnoreAppTimeout": true,
   "notificationShowTimeoutBar": true,
   "notificationHistoryMaxAgeDays": 3,

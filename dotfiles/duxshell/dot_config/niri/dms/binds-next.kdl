@@ -7,4 +7,3 @@ binds {
         spawn "dms" "ipc" "call" "keybinds" "toggle" "niri";
     }
 }
-`
