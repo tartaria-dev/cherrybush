@@ -1,4 +1,4 @@
-include optional=true "dms/binds-next.kdl"
+# include optional=true "dms/binds-next.kdl"
 include optional=true "dms/binds.kdl"
 
 include "dms/alttab.kdl"
