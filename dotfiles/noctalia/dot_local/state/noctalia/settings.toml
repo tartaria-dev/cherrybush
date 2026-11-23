@@ -254,7 +254,7 @@ wallpaper_scheme = "m3-tonal-spot"
     builtin_ids = [ "btop", "cava", "gtk3", "gtk4", "kcolorscheme", "kitty", "niri", "qt" ]
 
 [wallpaper]
-directory = "/usr/share/tartaria/wallpapers"
+directory = "/usr/share/tartaria/wallpaper"
 transition_on_startup = true
 
     [wallpaper.default]
