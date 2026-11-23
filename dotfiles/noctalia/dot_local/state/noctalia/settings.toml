@@ -258,10 +258,10 @@ directory = "/usr/share/tartaria/wallpapers"
 transition_on_startup = true
 
     [wallpaper.default]
-    path = "/usr/share/tartaria/wallpapers/cherry_tree.png"
+    path = "/usr/share/tartaria/wallpaper/cherry_tree.png"
 
     [wallpaper.last]
-    path = "/usr/share/tartaria/wallpapers/cherry_tree.png"
+    path = "/usr/share/tartaria/wallpaper/cherry_tree.png"
 
 [weather]
 refresh_minutes = 10
